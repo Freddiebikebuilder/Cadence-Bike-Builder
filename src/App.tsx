@@ -18,7 +18,7 @@ const App = () => (
       <BikeProvider>
         <Toaster />
         <Sonner />
-        <BrowserRouter>
+        <BrowserRouter basename="/Cadence-Bike-Builder">
           <Routes>
             <Route path="/" element={<Index />} />
             <Route path="/frame-selection" element={<FrameSelection />} /> 
