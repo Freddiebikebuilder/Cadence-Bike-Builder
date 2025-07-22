@@ -21,6 +21,7 @@ const App = () => (
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<Index />} />
+            <Route path="/frame-selection" element={<FrameSelection />} /> 
             <Route path="/build" element={<BikeBuilder />} />
             <Route path="/summary" element={<BuildSummary />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
